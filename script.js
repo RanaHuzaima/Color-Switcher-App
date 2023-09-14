@@ -1,9 +1,7 @@
 const button = document.querySelectorAll('button');
 const body = document.querySelector('body');
-console.log(button);
 button.forEach((btn) => {
     btn.addEventListener("click",function (e){
-        console.log(e.target.className);
         if(e.target.className === 'btn-white'){
             body.style.backgroundColor = 'white'
         }
