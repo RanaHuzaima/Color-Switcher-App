@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Courier, monospace;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+.inner {
+  text-align: center;
+  border: 1px solid;
+  padding: 20px 20px;
+  box-shadow: 0 0 30px 5px;
+  background-color: white;
+  border-radius: 20px;
+}
+button {
+  padding: 40px;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+p {
+  font-weight: bold;
+}
+.btn-white {
+  background-color: white;
+  border: 1px solid;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn-blue {
+  background-color: blue;
+  border: 1px solid;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn-green {
+  background-color: green;
+  border: 1px solid;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn-yellow {
+  background-color: yellow;
+  border: 1px solid;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn-white:hover{
+    transform: scale(1.04);
+    background-color: white;
+}
+.btn-blue:hover{
+    transform: scale(1.04);
+    background-color: blue;
+}
+.btn-green:hover{
+    transform: scale(1.04);
+    background-color: green;
+}
+.btn-yellow:hover{
+    transform: scale(1.04);
+    background-color: yellow;
+}
+
